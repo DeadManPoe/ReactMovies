@@ -7,9 +7,10 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2.0.0
     - uses: actions/setup-node@v1.1.0
     - name: Install deps
       run: npm install
     - name: Test app
-      run: CI=true && npm test
+      run: CI=true npm test
       
