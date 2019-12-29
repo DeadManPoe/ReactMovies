@@ -1,0 +1,6 @@
+@import "../../styles/mixins.scss";
+
+.card {
+  @include reference-elevation();
+  border-radius: 8px;
+}
