@@ -1,0 +1,10 @@
+.navigation {
+	padding: 1rem 0;
+	background-color: aliceblue;
+
+	> a {
+		margin-right: 1rem;
+		text-transform: uppercase;
+		font-weight: 500;
+	}
+}

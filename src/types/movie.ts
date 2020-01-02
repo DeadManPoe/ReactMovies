@@ -9,4 +9,7 @@ export interface Movie {
 	poster_path: string;
 	backdrop_path: string;
 	popularity: number;
+	release_date: string;
+	genre_ids: Array<number>;
+	genres: Array<string>;
 }

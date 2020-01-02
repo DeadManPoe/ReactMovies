@@ -1,0 +1,28 @@
+@import '../../styles/mixins.scss';
+
+.container {
+	border: 1px solid black;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+}
+
+.text_content {
+	padding: 1rem;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.movie_backdrop {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.bottom_bar > * {
+	margin-right: 1rem;
+}
+.bottom_bar > *:last-child {
+	margin-right: 0;
+}
